@@ -1,0 +1,1236 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+            body{
+                font-family: 'Roboto', sans-serif;
+            }
+        nav {
+
+            text-align: center;
+            box-shadow: 0px 5px 6px 10px rgb(192, 192, 192);
+            position: relative;
+            background-color: transparent;
+            
+            
+        }
+     nav ul li {
+         display: inline-block;
+         list-style-type: none;
+         padding-top: 25px;
+         padding-bottom: 25px;
+         padding-left: 15px;
+         padding-right: 10px;
+        
+     }
+     nav ul li a {
+         color: black;
+         text-decoration:none;
+         position: relative;
+         right: 30px;
+         
+     }
+     nav ul li a:hover {
+        color:#e4986a;
+        transition:ease-in-out 400ms;
+        transform: Rotatey(180deg);
+         -webkit-transform:Rotatey(180deg);
+         -ms-transform: Rotatey(180deg);
+     }
+     nav ul li a img{
+        position: relative;
+        right: 110px;
+        top: 7px;
+     }
+
+     nav ul b li a{
+        position: relative;
+        left: 80px;
+        top: 25px;
+        float: left;
+        
+     }
+
+     header{
+        background-image:url("ass1.jpg");
+        font-size: 45px; 
+        text-align: center;
+        height: 80%;
+        width:100%;
+        background-size:cover;
+        background-position: center;
+        padding-top: 80px;
+        padding-bottom: 70px;
+
+    }
+    header div{
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header p{
+        font-family:bold;
+        display:inline-block;
+        font-size: 25px; 
+        background-color: white;
+        padding-right: 25px; 
+        padding-left:25px ; 
+        padding-top: 10px; 
+        padding-bottom: 10px;   
+    }
+    button{
+
+        color: white;
+        padding-left:15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 10px ;
+        border-radius: 0px;
+        border:none;
+        background-color: #e4986a;
+    }
+    header button:hover {
+         color:#e4986a;
+         background-color: black;
+         transition:ease-in-out 400ms;
+         
+
+     }
+     .Icon-panel{
+         width:20%;
+         border-right: solid 1px #e4986a ;
+         margin-top:50px;
+         margin-bottom:50px;
+         text-align: center;
+         float: left;
+         padding: 2%;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+         
+     }
+
+     .Icon-panel h1:hover{
+         color:#e4986a;
+         background-blend-mode:luminosity;
+         transition:ease-in-out 400ms;   
+     }
+     .Icon-panel i{
+         font-size: 48px;
+         color:#e4986a;
+         padding-bottom: 15px;
+         /*transition:font-size 10 ms;*/
+         transition: color 10ms ease-in;
+     }
+     .Icon-panel i:hover{
+         color:black;
+         transition: 1.5s;
+         transform: Rotatey(180deg);
+         -webkit-transform:Rotatey(180deg);
+         -ms-transform: Rotatey(180deg);
+          
+     }
+     .Icon-panel h1{
+        padding: 0px;
+        margin: 0px;
+     }
+     .Icon-panel p{
+        padding: 0px;
+        margin: 0px;
+     }
+     .images{
+        display:flex;
+        justify-content: flex-start;
+        height: 610px; 
+          
+     }
+     .images1{
+        display:flex;
+        justify-content: flex-start;
+        height: 610px;
+        background-image: url("img1.jpeg" );
+        margin-left: 70px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+        margin-top: -20px;
+        padding-top:35px;
+        padding-bottom:35px;
+        padding-right: 80px;
+        padding-left: 80px; 
+        background-size:cover;
+        background-position: center;
+         }
+         .images1:hover{
+            transition:ease-in 400ms;
+            transform: scale(1.05);
+            background-color:black;
+            color:white;
+            opacity:0.7;
+            /* filter: blur(0.8px); */
+           /* -webkit-filter: blur(0.8px) */
+         }
+     
+     .images2{
+        display:flex;
+        justify-content: flex-start;
+        height: 90%;
+        margin-right: 80px;
+        flex-direction: column; 
+     }
+    .images2 i:hover{
+            transition:ease-in 400ms;
+            transform: scale(1.05);
+            opacity: 0.7;
+            color: #e4986a;
+            /* filter: blur(0.8px); */
+           /* -webkit-filter: blur(0.8px) */
+         }
+    .images2 i{
+      padding-top:120px;
+      padding-bottom:140px;
+      padding-right: 60px;
+      padding-left: 50px; 
+      margin-bottom: 30px;
+      margin-top: -20px;
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image: url("img2.jpeg" );
+      
+      }
+      .images .images1 div button{
+            color:black;
+            background-color: white;
+            font-size: 22px;
+            font-weight: bold;
+            padding-left:15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border:none;
+            border-radius: 5px;
+            position: relative;
+            left: 300px;
+            top: 570px;
+      }
+      
+          .images .images1 div button:hover{
+              color: #e4986a;
+          }
+         .images .images2 i div button
+         {
+            color: black;
+            background-color: white;
+            font-size: 22px;
+            font-weight: bold;
+            padding-left:15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border:none;
+            border-radius: 5px;
+            position: relative;
+            left: 250px;
+            top: 130px;
+         }
+         .images .images2 b div button
+         {
+            color: black;
+            background-color: white;
+            font-size: 22px;
+            font-weight: bold;
+            padding-left:15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border:none;
+            border-radius: 5px;
+            position: relative;
+            left: 210px;
+            top: 110px;
+         }
+         .images .images2 b div button:hover
+         {
+            color: #e4986a;
+         }
+         .images .images2 i div button:hover
+         {
+            color: #e4986a;
+         }
+    .images2 b{
+      padding-top:120px;
+      padding-bottom:120px;
+      padding-right: 50px;
+      padding-left: 50px;
+      margin-bottom:0px;
+      margin-top:10px;
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image: url("img3.jpeg" );
+      
+    }
+    .images2 b:hover{
+            transition:ease-in 400ms;
+            transform: scale(1.05);
+            background-color:transparent; 
+            opacity: 0.7;
+            color: #e4986a;
+            /* filter: blur(0.8px); */
+           /* -webkit-filter: blur(0.8px); */
+         }
+       
+         .header2{
+             text-align: center;
+            
+         }
+         .header2 p
+            {
+             padding-top: 100px;
+             padding-bottom: 0px;
+             font-size: 20px;
+              line-height: 16px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .header2 h1
+            {
+             font-size: 40px;
+             font-weight: bold;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-family:bold;
+             display:inline-block;
+             padding-right: 25px; 
+             padding-left:25px ; 
+             padding-top: 10px; 
+             padding-bottom: 10px;
+             margin-top: -10px;
+             background-image: url(logo.2.jpeg);
+             background-size:cover;
+             background-position: center;
+
+            }
+            .header2 .button1 button
+            {
+
+            color: black;
+            background-color: white;
+            padding-left:15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border:none;
+            border-radius: 5px;
+            font-size: 20px;
+            line-height: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: -15px;
+            }
+            .header2 .button1 z:hover
+            {
+                color:white;
+                background-color:#e4986a;
+                transition:ease-in-out 400ms;
+                padding-left:15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin: 0px;
+            }
+            .header2 .button1 y:hover
+            {
+                color:white;
+                background-color:#e4986a;
+                transition:ease-in-out 400ms;
+                padding-left:15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin: 0px;
+            }
+            .header2 .button1 x:hover
+            {
+                color:white;
+                background-color:#e4986a;
+                transition:ease-in 400ms;
+                padding-left:15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin: 0px;
+            }
+
+        .header3{
+        background-image:url("ass1.jpg");
+        font-size: 24px; 
+        text-align: center;
+        height: 80%;
+        width:100%;
+        background-size:cover;
+        background-position: center;
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .header3 h1{
+        position: relative;
+        left: 300px;
+        top:130px;
+        font-weight: bold;
+        font-size: 70px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: -10px;
+    }
+    .header3 p{
+        position: relative;
+        left: 290px;
+        top:150px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .header3 h3{
+        display:inline-block;
+        position: relative;
+        left: 300px;
+        top:130px;
+        margin-top: -50px;
+        font-size: 25px; 
+        background-color: #e4986a;
+        color: white;
+        padding-right: 25px; 
+        padding-left:25px ; 
+        padding-top: 10px; 
+        padding-bottom: 10px;   
+    }
+    .header3 button{
+
+        color: white;
+        padding-left:15px;
+        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin: 10px ;
+        border-radius: 0px;
+        border:none;
+        background-color: black;
+        position: relative;
+        left: 300px;
+        top:130px;
+    }
+    .header3 button:hover {
+         color:black;
+         background-color:#e4986a;
+         transition:ease-in-out 400ms;
+         
+
+     }
+
+     .flex-container {
+        display:flex;
+        justify-content: flex-start;
+        height:60%;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        background-color: white;
+       }
+
+       .flex-container p{
+        text-align:center;
+        font-weight: bolder;
+        position: relative;
+        top:350px;
+        right:150px;
+       }
+
+    .flex-container .p1 {
+      
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image: url("p1.jpeg" );
+}
+.flex-container .p1:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image:url("p2.jpeg" );
+}
+.flex-container .p2 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p2.jpeg" );
+      margin-left:30px;
+}
+.flex-container .p2:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p1.jpeg" );
+}
+.flex-container .p3 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p4.jpeg" );
+      margin-left:30px;
+}
+.flex-container .p3:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p7.jpeg" );
+}
+.flex-container .p4 {
+     background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p5.jpeg" );
+      margin-left:30px;
+}
+.flex-container .p4:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p1.jpeg" );
+}
+
+
+.flex-container-2 {
+        display:flex;
+        justify-content: flex-start;
+        height:60%;
+        width: 90%;
+        margin-top: 60px;
+        margin-bottom: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        background-color: white;
+       }
+
+       .flex-container-2 p{
+        text-align:center;
+        font-weight: bold;
+        position: relative;
+        top:350px;
+        right:150px;
+        }
+
+ 
+ .flex-container-2 .p5 {
+      
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image: url("p5.jpeg" );
+}
+.flex-container-2 .p5:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p8.jpeg" );
+}
+    
+.flex-container-2 .p6 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p6.jpeg" );
+      margin-left:30px;
+}
+.flex-container-2 .p6:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p2.jpeg" );
+}
+.flex-container-2 .p7 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p7.jpeg" );
+      margin-left:30px;
+}
+.flex-container-2 .p7:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p8.jpeg" );
+}
+.flex-container-2 .p8 {
+     background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p6.jpeg" );
+      margin-left:30px;
+}
+.flex-container-2 .p8:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p5.jpeg" );
+}
+   
+         
+        .Testimony-Panal{
+         border-right: solid 1px #e4986a ;
+         margin-top:6%;
+         margin-bottom:-8%;
+         margin-right: 5%;
+         margin-left: 5%;
+         text-align: center;
+         object-fit: contain;
+         padding: 2%;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         float: left;
+         background-color: white;
+
+        }
+        .Image-Panal {
+
+            height: 25%;
+            width: 100%;
+            background-color: white;
+        }
+        .Image-Panal img{
+
+            border-radius: 100px;
+            border-color:  #e4986a;
+            border-style: solid;
+            position: relative;
+            top: 35px;
+            right: 40px;
+             
+        }
+        .Testimony-Panal .Content-Panal {
+            height: 30%;
+            width: 50%;
+            background-color: white;
+            position: relative;
+            bottom: 210px;
+            left: 400px;
+        
+         }
+        .Testimony-Panal .Content-Panal i{
+            position: relative;
+            right: 300px;
+            top: 70px;
+            padding: 4%;
+            color: white;
+            display: inline block;
+            background-color: #e4986a;
+            border-radius: 100px;
+         }
+          .Image-Panal h2{ 
+        
+            display: inline;
+            position: relative;
+            bottom:20px;
+          }
+          .Image-Panal p{
+              display: inline;
+              position: relative;
+              bottom:0px;
+              right:110px;
+          }
+
+          .header-4{
+             text-align: center;
+             margin-top: -100px;
+            
+         }
+         .header-4 p
+            {
+             padding-top: 100px;
+             padding-bottom: 0px;
+             font-size: 20px;
+              line-height: 16px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             
+            }
+            .header-4 h1
+            {
+             font-size: 40px;
+             font-weight: bold;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-family:bold;
+             display:inline-block;
+             padding-right: 25px; 
+             padding-left:25px ; 
+             padding-top: 10px; 
+             padding-bottom: 10px;
+             margin-top: -10px;
+             background-image: url(img2.png);
+             background-size:cover;
+             background-position: center;
+
+            }
+
+            .flex-container-3 {
+        display:flex;
+        justify-content: flex-start;
+        height:60%;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+        background-color: white;
+       }
+
+       .flex-container-3 p{
+        text-align:center;
+        font-weight: bolder;
+        position: relative;
+        top:350px;
+        right:150px;
+       }
+
+    .flex-container-3 .p9 {
+      
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image: url("p2.jpeg" );
+}
+.flex-container-3 .p9:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image:url("p5.jpeg" );
+}
+.flex-container-3 .p10 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p1.jpeg" );
+      margin-left:30px;
+}
+.flex-container-3 .p10:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p8.jpeg" );
+}
+.flex-container-3 .p11 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p6.jpeg" );
+      margin-left:30px;
+}
+.flex-container-3 .p11:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p4.jpeg" );
+}
+.flex-container-3 .p12 {
+     background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("p3.jpeg");
+      margin-left:30px;
+}
+.flex-container-3 .p12:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+            background-image: url("p9.jpeg" );
+}
+
+
+.header-5{
+        background-image:url("ass1.jpg");
+        font-size: 24px; 
+        text-align: center;
+        height: 15%;
+        width:80%;
+        background-size:cover;
+        background-position: center;
+        padding-top: 100px;
+        padding-bottom: 130px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 12%;
+        margin-bottom: 12%;
+        margin-left: 5%;
+        margin-right: 80%;
+    }
+
+    .header-5 h1{
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom:-2px ;
+    }
+    .header-5 p{
+        display:inline-block;
+        font-size: 18px; 
+        background-color: #e4986a;
+        color: white;
+        padding-right: 25px; 
+        padding-left:25px ; 
+        padding-top: 10px; 
+        padding-bottom: 10px;   
+    }
+
+    .header-6{
+             text-align: center;
+             margin-top: -170px;
+            
+         }
+         .header-6 p
+            {
+             padding-top: 100px;
+             padding-bottom: 0px;
+             font-size: 20px;
+              line-height: 16px;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             
+            }
+            .header-6 h1
+            {
+             font-size: 40px;
+             font-weight: bold;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-family:bold;
+             display:inline-block;
+             padding-right: 25px; 
+             padding-left:25px ; 
+             padding-top: 10px; 
+             padding-bottom: 10px;
+             margin-top: -10px;
+             background-image: url(logo.2.jpeg);
+             background-size:cover;
+             background-position: center;
+
+             }
+              
+             .News-container {
+        display:flex;
+        justify-content: flex-start;
+        height:70%;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 70px;
+        margin-right: 70px;
+        background-color: white;
+       }
+
+       .News-container p{
+        text-align:center;
+        font-weight: bolder;
+        position: relative;
+        top:410px;
+        right:190px;
+       }
+
+    .News-container .n1 {
+      
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image: url("n1.jpg" );
+}
+.News-container .n1:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5
+}
+.News-container .n2 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("n2.jpg" );
+      margin-left:30px;
+}
+.News-container .n2:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+        
+}
+.News-container .n3 {
+      background-color:white;
+      background-size:cover;
+      background-position: center;
+      background-image:url("n3.jpg" );
+      margin-left:30px;
+}
+.News-container .n3:hover {
+            transition:ease-in 400ms; 
+            color:white;
+            opacity:0.5;
+}
+
+.Icon-panal-2{
+         width:15%;
+         border-right: solid 1px white ;
+         margin-top:70px;
+         margin-bottom:60px;
+         margin-right: 10px;
+         text-align: center;
+         float: left;
+         padding: 2%;
+         background-color: white;
+
+
+         
+     }
+
+     .Icon-panal-2 img:hover{
+        position: relative;
+        bottom:10px;
+        background-color: transparent;
+    
+    }
+     .Tahir{
+         background-color:#e4986a;
+         margin-top: 50px;
+         text-align: center;
+         width: 100%;
+         height:30%;
+     }
+     .Tahir h1{
+         font-size: 35px;
+         font-weight: bold;
+         color: white;
+         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         position: relative;
+         right: 300px;
+         top:50px
+        }
+     .Tahir h1 i{
+         padding:1%;
+         color: #e4986a;
+         background-color: white;
+         border-radius: 100%;
+     }
+     .Tahir button{
+         color: white;
+         background-color: black;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         padding-left: 25px;
+         padding-right: 25px;
+         font-family:Arial, Helvetica, sans-serif;
+         position: relative;
+         left: 230px;
+         bottom: 40px;
+     }
+     .Tahir input{
+         padding-top: 15px;
+         padding-bottom: 15px;
+         padding-left: 30px;
+         padding-right: 70px;
+         position: relative;
+         left: 245px;
+         bottom: 40px;
+         text-align:left;
+     }
+
+     footer{
+                background-color:white;
+                color: black;
+                text-align: left;
+                padding-top: 20px;
+                padding-bottom: 5px;
+                padding-right: 20%;
+                padding-left: 20%;
+                margin-right: 30px;
+                margin-bottom: 10px;
+                border-bottom: solid 1px black;
+            }
+
+            .Footer-1{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            footer h4{
+                position: relative;
+                left: 170px;
+                top:20px;
+                font-weight: bold;
+            }
+            .Footer-1 div img{
+                 position: relative;
+                 right: 85px;
+                 top: 80px;
+            }
+            .Footer-1 div p{
+                 position: relative;
+                 right: 40px;
+                 top: 30px;
+            }
+            .Footer-1 div p:hover{
+                 color: #e4986a;
+            }
+            .Footer-1 div p b{
+                 position: relative;
+                 right: 35px;
+                 top: 60px;
+            }
+            .Footer-1 div h2{
+                 position: relative;
+                 right: 40px;
+                 top: 30px;
+                 font-size: 23px;
+            }
+            .Footer-1 div{
+                
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 100%;
+                padding-right: 10%;
+
+
+            }
+            .Footer-1 p{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+          
+      @media only screen and (min-width:100px) and (max-width:500px){
+          body{
+              background-color: black;
+          }
+      }
+    </style>
+
+
+    <nav>
+        
+        <ul>
+            <li><a href="#"><img src="logo 1.png"></a></li>
+            <li><a href="#"><b><i class="fas fa-home"> Home</i></b></a></li>
+            <li><a href="#"><b><i class="fas fa-concierge-bell"> Services</i></b></a></li>
+            <li><a href="#"><b><i class="fas fa-box-open"> Product</i></b></a></li>
+            <li><a href="#"><b><i class="fas fa-folder-open"> Portfolio</i></b></a></li>
+            <li><a href="#"><b><i class="fas fa-phone-square-alt"> Contacts</i></b></a></li>
+            <li><a href="#"><b><i class="fas fa-info-circle"> About</i></b></a></li>
+            <b>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a href="#"><i class="far fa-user"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </b>
+        </ul>
+    </nav>
+
+
+
+    <header>
+       <p>The New Interior Home Decorate <i class="fas fa-globe"></i></p>
+       <div>Ceremics & potery<br/>Arts & Design </div>
+       <button>Shop Now <i class="fas fa-shopping-cart"></i></button>
+
+    </header>
+
+
+
+     <section >
+       <div class="Icon-panel">
+
+        <i class="fas fa-shopping-bag"></i>
+           <h1>Shop Worldwide</h1>
+           <p>Dropship worldwide</p>
+       </div>
+       <div class="Icon-panel">
+
+        <i class="fas fa-piggy-bank"></i>
+           <h1>Big Saving Shop</h1>
+           <p>Save Big Every Order</p>
+       </div>
+       <div class="Icon-panel">
+
+        <i class="fas fa-headset"></i>
+           <h1>24H 7D Support</h1>
+           <p>One-On-One Support</p>
+       </div>
+       <div class="Icon-panel" style="border:none;">
+
+        <i class="fas fa-hand-holding-usd"></i>
+           <h1>Money Back Return</h1>
+           <p>Cancel Order Anytime</p>
+       </div>
+       <p style="clear:both"></p>
+     </section>
+
+      
+     <section class="images">
+        <div class="images1" style="flex-grow:16;">
+           <div><button>Kitchen Art</button></div> 
+        </div>
+        <div class="images2" style="flex-grow:10;">
+           <i> <div ><button>Fiber</button></div></i>
+            <b>
+            <div><button>Crystalline</button></div>
+           </b>
+        </div>
+    </section>
+    
+    <div>
+       <section class="header2">
+        
+        <p>WELLCOME TO Ceremics </p>
+        <h1>Trending Products </h1>
+        <div class="button1">
+        <button><z>New Arrival</z></button>
+        <button><y>Featured</y></button>
+        <button><x>Bestseller</x></button>
+        </div>
+        </section>
+    </div>
+    
+
+    <!-- <section class="product-container"> 
+        <div style="flex-grow:0;">
+     </div>
+     <div class="product-container2">
+         <div style="-ms-flex-align:left;">2</div>
+        <div style="flex: shrink 1;;">3</div>
+     </div>
+    </section>
+    -->
+        <section class="flex-container">
+        <div class="p1" style="flex-grow: 4;"></div><p>$13.90</p>
+        <div  class="p2" style="flex-grow: 4;"></div><p>$12.90</p>
+        <div  class="p3" style="flex-grow: 4;"></div><p>$35.00</p>
+        <div  class="p4" style="flex-grow: 4;"></div><p>$9.00</p>
+        </section>
+
+
+        <section class="flex-container-2">
+        <div class="p5" style="flex-grow: 4;"></div><p>$12.90</p>
+        <div  class="p6" style="flex-grow: 4;"></div><p>$12.90</p>
+        <div  class="p7" style="flex-grow: 4;"></div><p>$9.00</p>
+        <div  class="p8" style="flex-grow: 4;"></div><p>$30.90</p>
+        </section>
+    
+      
+    
+    <section class="header3">
+        <p>Decorative Art & Pottery Crafts</p>
+        <h1>Save 35% off</h1>
+        <h3>Hurry, Discover Exclusive Ceramics Art</h3> 
+        <br>
+       <button>Shop Now <i class="fas fa-shopping-cart"></i></button>
+       </br>
+    </section>
+
+    <section>
+        <div class="Testimony-Panal">
+            <div class="Image-Panal"><img src="p10.jpeg">
+                <h2>John Doe</h2>
+                <p>CEO & Founder</p> 
+            </div>
+        </div>
+          <div class="Testimony-Panal" style="border:none;">
+            <div class="Content-Panal"><i class="fas fa-quote-right"></i><p>"I’m writing to ask if you wouldn’t mind giving us a short testimonial for our website. We’re updating a few pages, and I’m hoping to add something from you. It would link back to your site, so it’s actually a good thing for your SEO."</p>
+            
+            
+        </div>
+    </div>
+    <p style="clear:both"></p>
+    </section>
+
+    <div>
+        <section class="header-4">
+           <p>WELLCOME TO Ceremics </p>
+            <h1>Special Products </h1>
+         </section>
+    </div>
+    
+        <section class="flex-container-3">
+            <div class="p9" style="flex-grow: 4;"></div><p>$12.90</p>
+            <div  class="p10" style="flex-grow: 4;"></div><p>$12.90</p>
+            <div  class="p11" style="flex-grow: 4;"></div><p >$30.00</p>
+            <div  class="p12" style="flex-grow: 4;"></div><p>$30.90</p>
+        </section>
+
+             
+          <div>
+
+            <section class="header-5">
+            <h1>Home Ceramics Design</h1>
+            <p>Hurry, Discover Exclusive Ceramics Art</p > 
+            </section>
+            </div>
+
+            
+            <div>
+            <section class="header-6">
+             <p>WELLCOME TO Ceremics </p>
+            <h1>Latest News </h1>
+            </section>
+            </div>
+
+            <section class="News-container">
+                <div class="n1" style="flex-grow: 6;"></div><p> Headline</p>
+                <div  class="n2" style="flex-grow: 6;"></div><p>Headline</p>
+                <div  class="n3" style="flex-grow: 6;"></div><p>Headline</p>
+            </section>
+       <div>
+     <section> 
+        <div class="Icon-panal-2"> <img src="1.jpg"></div>
+        <div class="Icon-panal-2"> <img src="2.jpg"></div>
+        <div class="Icon-panal-2"> <img src="3.jpg"></div>
+        <div class="Icon-panal-2"> <img src="4.jpg"></div>
+        <div class="Icon-panal-2"> <img src="5.jpg"></div>
+    </section>
+    <p style="clear:both"></p>
+</div> 
+<section >
+        <div class="Tahir">
+      
+        <h1><i class="far fa-envelope-open"></i> Sign Up For Newsletter</h1>
+        <input type="email" placeholder="Your email Address" />
+        <button>Subscribe</button>
+    </div>
+    </section>
+
+    <footer>
+        <div class="Footer-1">
+            <div>
+                
+                <img src="logo 1.png">
+                <p><b>Duis faucibus enim vitae nunc molestie molestie,nec facilisis Nullam mat nec facilisis Nullam mat.....</b></p>
+                
+            </div>
+            <div>
+                <h2>Products</h2>
+                <p>About us</p>
+                <p>Secure payment</p>
+                <p>New products</p>
+                <p>Contact us</p>
+                <p>Login</p>
+            </div>
+            <div>
+                <h2>Our company</h2>
+                <p>Delivery</p>
+                <p>Legal Notice</p>
+                <p>About us</p>
+                <p>Secure payment</p>
+                <p>My account</p>
+            </div>
+            <div>
+                <h2>Store information</h2>
+                <p>demo US</p>
+                <p>112233445</p>
+                <p>malikusamariaz710@gmail.com</p>
+            </div>
+            
+        
+    </div>  
+    <h4> Assignment no. 1 © 2020 - 2021 All rights are reserved.</h4> 
+    </footer>
+        
+
+</body>
+
+
+</html>     
